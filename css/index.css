@@ -1,0 +1,129 @@
+:root {
+    --background-color: #000714;
+    --box-color1: #fff;
+    --box-color2: pink;
+    --button-color: #fff;
+}
+
+@font-face {
+    font-family: 'SCDream1';
+    src: url("/font/SCDream1.otf");
+}
+
+@font-face {
+    font-family: 'SCDream2';
+    src: url("/font/SCDream2.otf");
+}
+
+@font-face {
+    font-family: 'SCDream3';
+    src: url("/font/SCDream3.otf");
+}
+
+@font-face {
+    font-family: 'SCDream4';
+    src: url("/font/SCDream4.otf");
+}
+
+@font-face {
+    font-family: 'SCDream5';
+    src: url("/font/SCDream5.otf");
+}
+
+@font-face {
+    font-family: 'SCDream6';
+    src: url("/font/SCDream6.otf");
+}
+
+@font-face {
+    font-family: 'SCDream7';
+    src: url("/font/SCDream7.otf");
+}
+
+@font-face {
+    font-family: 'SCDream8';
+    src: url("/font/SCDream8.otf");
+}
+
+@font-face {
+    font-family: 'SCDream9';
+    src: url("/font/SCDream9.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 500px;
+    height: 100%;
+    background: var(--box-color1);
+}
+
+.title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SCDream6';
+    font-size: 20px;
+    background: var(--box-color2);
+    color: #000714;
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+}
+
+.img img {
+    height: 100%;
+}
+
+.a {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'SCDream6';
+}
+
+.a a {
+    width: 90%;
+    height: 50px;
+    background: rgb(0, 89, 255);
+    color: var(--box-color1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background: var(--box-color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SCDream4';
+    font-size: 12px;
+}

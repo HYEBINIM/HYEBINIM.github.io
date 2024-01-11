@@ -1,0 +1,41 @@
+<?php
+session_start();
+$_SESSION['res5'] = $_GET['num5'];
+?>
+<!-- 첫 페이지 딜러 vs 서폿 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/page.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <a class="title" href="/index.html">
+            로스트아크 직업 추천 테스트
+        </a>
+        <div class="img">
+            <img src="/img/img1.png" alt="">
+        </div>
+        <form method='get' action="/pages/page7.html">
+            <div class="q">
+                나는 파티원을 웃기는게 좋다.
+            </div>
+            <div class="a">
+                <a href="/pages/page7.html?num6=1">그렇다</a>
+                <a href="/pages/page7.html?num6=2">아니다</a>
+                <a href="/pages/page7.html?num6=3">잘 모르겠음</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>Created By 뇨챠리</p>
+            <p>ver.2024</p>
+        </div>
+    </div>
+</body>
+
+</html>

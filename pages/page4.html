@@ -1,0 +1,42 @@
+<?php
+session_start();
+$_SESSION['res3'] = $_GET['num3'];
+?>
+<!-- 첫 페이지 딜러 vs 서폿 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/page.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <a class="title" href="/index.html">
+            로스트아크 직업 추천 테스트
+        </a>
+        <div class="img">
+            <img src="/img/img1.png" alt="">
+        </div>
+        <form method='get' action="/pages/page5.html">
+            <div class="q">
+                무조건 캐릭터는 쎈게 최고다.
+            </div>
+            <div class="a">
+                <a href="/pages/page5.html?num4=1">무조건 지금 제일 쎈 사기 캐릭터 (너프당할수도 있음)</a>
+                <a href="/pages/page5.html?num4=2">꼭 제일 안 쎄도 너프당할 확률이 적은 2티어 직업</a>
+                <a href="/pages/page5.html?num4=3">나는 남들 다 하는 직업 말고 특별한 직업을 원해(홍대병)</a>
+                <a href="/pages/page5.html?num4=4">모르겠다</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>Created By 뇨챠리</p>
+            <p>ver.2024</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<?php
+session_start();
+$_SESSION['res4'] = $_GET['num4'];
+?>
+<!-- 첫 페이지 딜러 vs 서폿 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/page.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <a class="title" href="/index.html">
+            로스트아크 직업 추천 테스트
+        </a>
+        <div class="img">
+            <img src="/img/img1.png" alt="">
+        </div>
+        <form method='get' action="/pages/page6.html">
+            <div class="q">
+                근접캐릭터 vs 원거리캐릭터
+            </div>
+            <div class="a">
+                <a href="/pages/page6.html?num5=1">근접이 좋아</a>
+                <a href="/pages/page6.html?num5=2">원거리가 좋아</a>
+                <a href="/pages/page6.html?num5=3">상관없음</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>Created By 뇨챠리</p>
+            <p>ver.2024</p>
+        </div>
+    </div>
+</body>
+
+</html>
